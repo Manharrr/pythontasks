@@ -23,28 +23,28 @@
 
 # print(a is c)
 # print(a==c)
+# 
+
+
+def new():
+    yield 1
+    yield 2
+
+g=new()
+
+print(next(g))
+print(next(g))
 
 
 
-# def new():
-#     yield 1
-#     yield 2
-
-# g=new()
-
-# print(next(g))
-# print(next(g))
-
-
-
-# stud={
-#    "stud1":{ "name":"manhar"},
-#    "stud2":{"name":"adhil","sasd":2},
-#    "stud3":{"name":"arun"}
-# }
-# print(stud["stud2"]["sasd"])
-# for key in stud:
-#        print(key)
+stud={
+   "stud1":{ "name":"manhar"},
+   "stud2":{"name":"adhil","sasd":2},
+   "stud3":{"name":"arun"}
+}
+print(stud["stud2"]["sasd"])
+for key in stud:
+       print(key)
 
 
 # def decorator(func):
