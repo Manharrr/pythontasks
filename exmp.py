@@ -1,5 +1,5 @@
-import task
-print(task.stud["stud1"])
+# import task
+# print(task.stud["stud1"])
 # def decor(func):
 #     def style():
 #         res=""
@@ -115,19 +115,19 @@ print(task.stud["stud1"])
 # cat.makesound()
 
 
-a=min(12,2,45)
-print(a)
-ab=abs(-7.54)
-print(ab)
+# a=min(12,2,45)
+# print(a)
+# ab=abs(-7.54)
+# print(ab)
 
-x=pow(3,5)
-print(x)
+# x=pow(3,5)
+# print(x)
 
 
 
-import math 
-x=math.sqrt(25)  
-print(x).math.ceil()   
+# import math 
+# x=math.sqrt(25)  
+# print(x).math.ceil()   
     
 
 # def decor(func):
@@ -142,51 +142,77 @@ print(x).math.ceil()
 #   return "my name is:-"+ name
 # print(new("manhar"))
 
-def decor(func):
-    def inner():
-        text=func() 
-        res=""
-        for x in text:
-            if x in "aeiou":
-                res+="*"
-            else:
-                res+=x.lower()
-        return res
-    return inner
+# def decor(func):
+#     def inner():
+#         text=func() 
+#         res=""
+#         for x in text:
+#             if x in "aeiou":
+#                 res+="*"
+#             else:
+#                 res+=x.lower()
+#         return res
+#     return inner
         
-@decor
-def hy():
-    return "goood morning"
+# @decor
+# def hy():
+#     return "goood morning"
     
-print(hy())
+# print(hy())
 
 
-def new(n):
-    if n==0:
-        print("completed")
-        return
-    print(n)
+# def new(n):
+#     if n==0:
+#         print("completed")
+#         return
+#     print(n)
     
-    new(n-1)
+#     new(n-1)
    
     
-new(5)
+# new(5)
 
 
-a=[x for x in range(5)]
-print(a)
-
-
-
+# a=[x for x in range(5)]
+# print(a)
 
 
 
 
 
+# w= open("exmp.txt", "r")
+# print(w.read())
+
+# listt=["a","b","c","d"]
+
+# b=dict.fromkeys(listt,0)
+# print(b)
 
 
+# t=(1,2,3,4,5,6,7)
+
+# a=dict.fromkeys(t,0)
+# print(a)
 
 
+# text = "FULLSTACKDEVELOPER"
+# print(text[0:18:2])
 
 
+# t= "manhar gurukkal ck tirurr"
+# print("".join(t.split()))
+# print(t.replace(" ",""))
 
+# class Animal:
+#     def __init__(self, name,age):
+#         self.name=name
+#         self.age=age
+    
+#     def life(self):
+#         print(self.age,"is the lifespawn of ",self.name)
+        
+# dog=Animal("dog",11)
+# dog.life()
+
+# cat=Animal("cat",66)
+# cat.life()
