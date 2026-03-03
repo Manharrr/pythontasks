@@ -119,7 +119,68 @@
 # c.setter(8)
 # print(c.get())
 
-from abc import ABC
+
+
+
+
+# print(list(zip(a,b)))
+# res={k,v for k,v in zip(keys,values)}
+
+# class Animal():
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+        
+#     def namee(self):
+#         print(self.name,"is aa  animal ",self.age,"yearlive")
+    
+# a=Animal("dog",10)
+# a.namee()
+    
+# class Animal:
+#     def animall(self):
+#         print("makesound")
+        
+# class Dog(Animal):
+#     def sound(self):
+#         print("dog make osund")
+#     def old(self):
+#         print("dog live 20 year")
+        
+# c=Dog()
+# c.sound()
+# c.old()
+# c.animall()
+
+# from abc import ABC,abstractmethod
+
+# class Animal(ABC):
+#     @abstractmethod
+#     def sound(self):
+#         pass
+# class Dog(Animal):
+#     def sound(self):
+#         print("dog barks")
+        
+# c=Dog()
+# c.sound()
+    
+# class Person():
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.__age=age
+        
+#     # def get(self):
+#     #     return self.__age
+        
+# c=Person("manhar",22)
+# print(c._Person__age)
+# # print(c.get())
+
+
+
+
+
 
 
 
