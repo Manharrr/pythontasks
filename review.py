@@ -74,9 +74,9 @@ txt="Bridgeon's AI Notetaker"
 # fil=filter(lambda X :X%2==0,lst)
 # print(list(fil))
 
-# def new(name,age):
-#     print(f"my name is",name,"and old is",age) 
-# new(name="manhar",age=22)
+def new(name,age):
+    print(f"my name {name}and old i{age}") 
+new(name="manhar",age=22)
 
 class Test:
     def __init__(self):
