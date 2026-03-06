@@ -74,20 +74,20 @@ txt="Bridgeon's AI Notetaker"
 # fil=filter(lambda X :X%2==0,lst)
 # print(list(fil))
 
-def new(name,age):
-    print(f"my name {name}and old i{age}") 
-new(name="manhar",age=22)
+# def new(name,age):
+#     print(f"my name {name}and old i{age}") 
+# new(name="manhar",age=22)
 
-class Test:
-    def __init__(self):
-        self.x = []
+# class Test:
+#     def __init__(self):
+#         self.x = []
 
-a = Test()
-b = Test()
+# a = Test()
+# b = Test()
 
-a.x.append(1)
+# a.x.append(1)
 
-print(a.x, b.x)
+# print(a.x, b.x)
 
 
 
@@ -116,6 +116,21 @@ print(a.x, b.x)
 # c=Dog()
 # c.sound()
 
-        
+
+def new(name,age):
+    print(f"my name {name}and old i{age}") 
+new(name="manhar",age=22)
+
+class Test:
+    def __init__(self):
+        self.x = []
+
+a = Test()
+b = Test()
+
+a.x.append(1)
+
+print(a.x, b.x)
+
     
     
