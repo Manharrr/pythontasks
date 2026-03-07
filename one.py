@@ -93,7 +93,7 @@ print(a.strip())
 print(a.split())
 print(a.swapcase())
 print(a.count("a"))
-print(a.find("g"))
+print(a.find("ggggg"))
 print(a.title())
 
 print(a[::-1])
@@ -166,8 +166,9 @@ print(a)
 # print(aa)
 
 
-# a={1,2,3,1,3,4,5}
-# b={11,12,1,2,3,55,66}
+a={1,2,3,1,3,4,5}
+b={11,12,1,2,3,55,66}
+print(a.union(b))
 
 # print(a)
 # a|=b
