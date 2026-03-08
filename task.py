@@ -902,10 +902,17 @@ print(aa)
 # print(next(g))
 
 
-aa=[1,2,3,4]
-neww=filter(lambda x:x%2==0,aa)
-print(list(neww))
+# aa=[1,2,3,4]
+# neww=filter(lambda x:x%2==0,aa)
+# print(list(neww))
 
-gg=iter(aa)
-print(next(gg))
-print(next(gg))
+# gg=iter(aa)
+# print(next(gg))
+# print(next(gg))
+
+new={x:x*x for x in range(1,15)if x%2==0}
+print(new)
+
+name="manhar"
+age=22
+print(f"my name is {name} and iam {age} year old")
