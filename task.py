@@ -916,3 +916,10 @@ print(new)
 name="manhar"
 age=22
 print(f"my name is {name} and iam {age} year old")
+
+# def new():
+#     yield 1
+#     yield "enddd"
+# g=new()
+# print(next(g))
+# print(next(g))
