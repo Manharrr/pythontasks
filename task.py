@@ -923,3 +923,8 @@ print(f"my name is {name} and iam {age} year old")
 # g=new()
 # print(next(g))
 # print(next(g))
+
+aa=[1,2,[2,3,[4,5,6,[7,8,9]]]]
+# print(aa)
+
+# print(aa[-1][-1][-1][1])
