@@ -23,28 +23,28 @@
 
 # print(a is c)
 # print(a==c)
-# 
-
-
-def new():
-    yield 1
-    yield 2
-
-g=new()
-
-print(next(g))
-print(next(g))
 
 
 
-stud={
-   "stud1":{ "name":"manhar"},
-   "stud2":{"name":"adhil","sasd":2},
-   "stud3":{"name":"arun"}
-}
-print(stud["stud2"]["sasd"])
-for key in stud:
-       print(key)
+# def new():
+#     yield 1
+#     yield 2
+
+# g=new()
+
+# print(next(g))
+# print(next(g))
+
+
+
+# stud={
+#    "stud1":{ "name":"manhar"},
+#    "stud2":{"name":"adhil","sasd":2},
+#    "stud3":{"name":"arun"}
+# }
+# print(stud["stud2"]["sasd"])
+# for key in stud:
+#        print(key)
 
 
 # def decorator(func):
@@ -894,37 +894,33 @@ print(aa)
 
 
 
-# def new():
-#     yield 1
-#     yield "enddd"
-# g=new()
-# print(next(g))
-# print(next(g))
+def new():
+    yield 1
+    yield "enddd"
+g=new()
+print(next(g))
+print(next(g))
 
 
-# aa=[1,2,3,4]
-# neww=filter(lambda x:x%2==0,aa)
-# print(list(neww))
+aa=[1,2,3,4]
+neww=filter(lambda x:x%2==0,aa)
+print(list(neww))
 
-# gg=iter(aa)
-# print(next(gg))
-# print(next(gg))
+gg=iter(aa)
+print(next(gg))
+print(next(gg))
 
-new={x:x*x for x in range(1,15)if x%2==0}
-print(new)
 
-name="manhar"
-age=22
-print(f"my name is {name} and iam {age} year old")
+class Animal:
+    def __init__(self, name,age):
+        self.name=name
+        self.age=age
+    
+    def life(self):
+        print(self.age,"is the lifespawn of ",self.name)
+        
+dog=Animal("dog",11)
+dog.life()
 
-# def new():
-#     yield 1
-#     yield "enddd"
-# g=new()
-# print(next(g))
-# print(next(g))
-
-aa=[1,2,[2,3,[4,5,6,[7,8,9]]]]
-# print(aa)
-
-# print(aa[-1][-1][-1][1])
+cat=Animal("cat",66)
+cat.life()
