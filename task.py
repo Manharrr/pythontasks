@@ -894,13 +894,6 @@ print(aa)
 
 
 
-def new():
-    yield 1
-    yield "enddd"
-g=new()
-print(next(g))
-print(next(g))
-
 
 aa=[1,2,3,4]
 neww=filter(lambda x:x%2==0,aa)
@@ -924,3 +917,16 @@ dog.life()
 
 cat=Animal("cat",66)
 cat.life()
+
+
+
+# class parent():
+#     def show(self):
+#         print("hiiii")
+
+# class child(parent):
+#     def dis(self):
+#         print("hiiiiihloooo")
+# c=child()
+# c.dis()
+# c.show()
