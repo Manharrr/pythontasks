@@ -918,15 +918,9 @@ dog.life()
 cat=Animal("cat",66)
 cat.life()
 
+# names = ["manhar","aji","nabeel","an"]
+# ans=list(filter(lambda x: len(x)>4,names))
+# print(ans)
 
 
-# class parent():
-#     def show(self):
-#         print("hiiii")
 
-# class child(parent):
-#     def dis(self):
-#         print("hiiiiihloooo")
-# c=child()
-# c.dis()
-# c.show()
