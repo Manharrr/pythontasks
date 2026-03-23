@@ -918,9 +918,18 @@ dog.life()
 cat=Animal("cat",66)
 cat.life()
 
-# names = ["manhar","aji","nabeel","an"]
-# ans=list(filter(lambda x: len(x)>4,names))
-# print(ans)
+# from abc import ABC,abstractmethod
 
+# class Animal(ABC):
+#     @abstractmethod
+#     def sound(self):
+#         pass
+
+# class Dog(Animal):
+#     def sound(self):
+#         print("boww")
+
+# d=Dog()
+# d.sound()
 
 
