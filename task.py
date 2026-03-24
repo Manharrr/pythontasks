@@ -932,4 +932,17 @@ cat.life()
 # d=Dog()
 # d.sound()
 
+class Animal:
+    def __init__(self, name,age):
+        self.name=name
+        self.age=age
+    
+    def life(self):
+        print(self.age,"is the lifespawn of ",self.name)
+        
+dog=Animal("dog",11)
+dog.life()
+
+cat=Animal("cat",66)
+cat.life()
 
