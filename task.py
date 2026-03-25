@@ -946,3 +946,9 @@ dog.life()
 cat=Animal("cat",66)
 cat.life()
 
+
+# def add(a,b):
+#     return a+b
+# # print(add(9,6))
+# ans=add(2,5)
+# print(ans)
