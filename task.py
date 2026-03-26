@@ -805,6 +805,33 @@ print(aa)
 #         print(i)
 
 
+
+
+
+aa=[1,2,3,4]
+neww=filter(lambda x:x%2==0,aa)
+print(list(neww))
+
+gg=iter(aa)
+print(next(gg))
+print(next(gg))
+
+
+# class Animal:
+#     def __init__(self, name,age):
+#         self.name=name
+#         self.age=age
+    
+#     def life(self):
+#         print(self.age,"is the lifespawn of ",self.name)
+        
+# dog=Animal("dog",11)
+# dog.life()
+
+# cat=Animal("cat",66)
+# cat.life()
+
+
 # class parent():
 #     def show(self):
 #         print("hiiii")
@@ -893,62 +920,3 @@ print(aa)
 # print(ans)
 
 
-
-
-aa=[1,2,3,4]
-neww=filter(lambda x:x%2==0,aa)
-print(list(neww))
-
-gg=iter(aa)
-print(next(gg))
-print(next(gg))
-
-
-class Animal:
-    def __init__(self, name,age):
-        self.name=name
-        self.age=age
-    
-    def life(self):
-        print(self.age,"is the lifespawn of ",self.name)
-        
-dog=Animal("dog",11)
-dog.life()
-
-cat=Animal("cat",66)
-cat.life()
-
-# from abc import ABC,abstractmethod
-
-# class Animal(ABC):
-#     @abstractmethod
-#     def sound(self):
-#         pass
-
-# class Dog(Animal):
-#     def sound(self):
-#         print("boww")
-
-# d=Dog()
-# d.sound()
-
-class Animal:
-    def __init__(self, name,age):
-        self.name=name
-        self.age=age
-    
-    def life(self):
-        print(self.age,"is the lifespawn of ",self.name)
-        
-dog=Animal("dog",11)
-dog.life()
-
-cat=Animal("cat",66)
-cat.life()
-
-
-# def add(a,b):
-#     return a+b
-# # print(add(9,6))
-# ans=add(2,5)
-# print(ans)
