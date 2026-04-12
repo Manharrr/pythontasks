@@ -257,16 +257,4 @@ print(decor())
 # dog=Animal("dog",11)
 # dog.life()
 
-# cat=Animal("cat",66)
-# cat.life()
-# class BankAccount:
-#     def __init__(self, balance):
-#         self.__balance = balance
-
-#     def deposit(self, amount):
-#         if amount > 0:
-#             self.__balance += amount
-
-#     def get_balance(self):
-#         return self.__balance
-    
+print("hiiii")
