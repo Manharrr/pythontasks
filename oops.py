@@ -228,11 +228,3 @@ print(decor())
 # c.setter(8)
 # print(c.getval())
 
-
-# class BankAccount:
-#     def __init__(self, balance):
-#         self.__balance = balance
-
-#     def deposit(self, amount):
-#         if amount > 0:
-#             self.__balance += amount
