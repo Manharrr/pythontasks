@@ -117,4 +117,4 @@ txt="Bridgeon's AI Notetaker"
 # c.sound()
 
 
-def new(name,age):
+
