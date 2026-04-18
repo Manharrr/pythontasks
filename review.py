@@ -113,7 +113,8 @@ txt="Bridgeon's AI Notetaker"
 #     def sound(self):
 #         print("dog barks")
         
-
+# c=Dog()
+# c.sound()
 
 
 
