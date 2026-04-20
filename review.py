@@ -113,7 +113,24 @@ txt="Bridgeon's AI Notetaker"
 #     def sound(self):
 #         print("dog barks")
         
+# c=Dog()
+# c.sound()
 
 
+def new(name,age):
+    print(f"my name {name}and old i{age}") 
+new(name="manhar",age=22)
 
+class Test:
+    def __init__(self):
+        self.x = []
 
+a = Test()
+b = Test()
+
+a.x.append(1)
+
+print(a.x, b.x)
+
+    
+    
