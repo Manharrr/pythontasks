@@ -127,10 +127,3 @@ class Test:
 
 a = Test()
 b = Test()
-
-a.x.append(1)
-
-print(a.x, b.x)
-
-    
-    
