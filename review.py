@@ -124,6 +124,4 @@ new(name="manhar",age=22)
 class Test:
     def __init__(self):
         self.x = []
-
-a = Test()
-b = Test()
+)
