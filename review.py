@@ -91,17 +91,19 @@ txt="Bridgeon's AI Notetaker"
 
 
 
-# def decor(func):
-#     def wrapper():
-#         return func().upper()
-#     return wrapper
+def decor(func):
+    def wrapper():
+        return func().upper()
+    return wrapper
         
-# @decor
-# def new():
-#     return "good afternoon"
-# print(new())
+@decor
+def new():
+    return "good afternoon"
+print(new())
 
-
+def one ():
+    print("This code defines a class Employee with a class variable raise_amount")
+    
 
 # from abc import ABC,abstractmethod
 

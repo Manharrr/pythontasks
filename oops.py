@@ -62,19 +62,19 @@
 # b.add()
 # c.add()
 
-# class person:
-#     def __init__(self,name,age):
-#         self.name=name
-#         self.__age=age
+class person:
+    def __init__(self,name,age):
+        self.name=name
+        self.__age=age
         
-#     def getvalue(self):
-#         return self.__age
+    def getvalue(self):
+        return self.__age
         
-#     def setter(self, age):
-#         if age>0:
-#             self.__age=age
-#         else:
-#             print("enter valied num")
+    def setter(self, age):
+        if age>0:
+            self.__age=age
+        else:
+            print("enter valied num")
         
         
 # c=person("manhar",21)
@@ -152,18 +152,18 @@
 # c.old()
 # c.animall()
 
-# from abc import ABC,abstractmethod
+from abc import ABC,abstractmethod
 
-# class Animal(ABC):
-#     @abstractmethod
-#     def sound(self):
-#         pass
-# class Dog(Animal):
-#     def sound(self):
-#         print("dog barks")
+class Animal(ABC):
+    @abstractmethod
+    def sound(self):
+        pass
+class Dog(Animal):
+    def sound(self):
+        print("dog barks")
         
-# c=Dog()
-# c.sound()
+c=Dog()
+c.sound()
     
 # class Person():
 #     def __init__(self,name,age):
