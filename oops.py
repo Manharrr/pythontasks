@@ -180,12 +180,6 @@ c.sound()
 
 
 
-def decor():
-    return "hello worldd"
-print(decor())
-
-
-
 
 
 
