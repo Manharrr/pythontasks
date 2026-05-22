@@ -217,6 +217,13 @@
 # cat=Animal("cat",66)
 # cat.life()
 
+def decor(func):
+    def wrapper():
+        return func().replace("manharrrr","manhar")
+    return wrapper
+
+
+@decor
 def one():
     return "my name is manharrrr"
 
