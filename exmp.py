@@ -216,3 +216,8 @@
 
 # cat=Animal("cat",66)
 # cat.life()
+
+def one():
+    return "my name is manharrrr"
+
+print(one())
