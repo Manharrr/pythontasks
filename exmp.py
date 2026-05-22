@@ -228,3 +228,22 @@ def one():
     return "my name is manharrrr"
 
 print(one())
+
+
+text= "manhar ck"
+
+word=text.split()
+
+result=[]
+
+for  i in word:
+    rev=""
+    for char in i:
+        rev=char+rev
+    
+    result.append(rev)
+    
+    
+print(" ".join(result))
+
+
