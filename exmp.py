@@ -1,24 +1,24 @@
 # import task
 # print(task.stud["stud1"])
-# def decor(func):
-#     def style():
-#         res=""
-#         text=func()
-#         for i, x in enumerate(text):
-#             if i%2==0:
-#                 res+=x.upper()
-#             else:
-#                 res+=x.lower()
-#         return res
+def decor(func):
+    def style():
+        res=""
+        text=func()
+        for i, x in enumerate(text):
+            if i%2==0:
+                res+=x.upper()
+            else:
+                res+=x.lower()
+        return res
        
-#     return style
+    return style
         
 
 
-# @decor
-# def new():
-#     return "good morning"
-# print(new())
+@decor
+def new():
+    return "good morning"
+print(new())
 
 
 

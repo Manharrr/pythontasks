@@ -123,7 +123,3 @@ def new(name,age):
     print(f"my name {name}and old i{age}") 
 new(name="manhar",age=22)
 
-class Test:
-    def __init__(self):
-        self.x = []
-
