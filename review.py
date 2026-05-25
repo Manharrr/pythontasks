@@ -119,7 +119,3 @@ def one ():
 # c.sound()
 
 
-def new(name,age):
-    print(f"my name {name}and old i{age}") 
-new(name="manhar",age=22)
-
