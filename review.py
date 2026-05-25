@@ -119,3 +119,7 @@ def one ():
 # c.sound()
 
 
+sq=[x*x for x in range(1,8)]
+print(sq)
+dic={x: x for x in range (1,10)}
+print(dic)
